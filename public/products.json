@@ -1,0 +1,45 @@
+[
+    {
+      "image": "https://img.freepik.com/free-photo/elegant-smartphone-composition_23-2149437105.jpg?ga=GA1.1.779455823.1724486738&semt=ais_hybrid",
+      "title": "Smartphone",
+      "description": "Latest model with high-speed processor and vibrant display.",
+      "price": 799,
+      "isCategory": false
+    },
+    {
+      "image": "https://img.freepik.com/free-photo/rendering-smart-home-device_23-2151039320.jpg?ga=GA1.1.779455823.1724486738&semt=ais_hybrid",
+      "title": "Wireless Earbuds",
+      "description": "Noise-cancelling earbuds with up to 10 hours of battery life.",
+      "price": 149,
+      "isCategory": false
+    },
+    {
+      "image": "https://img.freepik.com/free-photo/office-desktop-with-laptop_23-2148179163.jpg?ga=GA1.1.779455823.1724486738&semt=ais_hybrid",
+      "title": "Laptop",
+      "description": "Powerful laptop with 16GB RAM and 512GB SSD.",
+      "price": 1199,
+      "isCategory": false
+    },
+    {
+      "image": "https://img.freepik.com/premium-photo/flat-lay-modern-vintage-cameras-phones-technology-white-background_1282444-109820.jpg?ga=GA1.1.779455823.1724486738&semt=ais_hybrid",
+      "title": "Electronics",
+      "description": "Browse the latest gadgets and devices.",
+      "price": 550,
+      "isCategory": true
+    },
+    {
+      "image": "https://img.freepik.com/premium-photo/watch-with-time-12-05-it_1249034-27883.jpg?ga=GA1.1.779455823.1724486738&semt=ais_hybrid",
+      "title": "Smartwatch",
+      "description": "Fitness tracker with heart rate monitor and GPS.",
+      "price": 249,
+      "isCategory": false
+    },
+    {
+      "image": "https://img.freepik.com/free-photo/view-modern-hot-air-fryer-with-cooked-food_23-2151737076.jpg?ga=GA1.1.779455823.1724486738&semt=ais_hybrid",
+      "title": "Home Appliances",
+      "description": "Explore our range of modern home appliances.",
+      "price": 350,
+      "isCategory": true
+    }
+  ]
+  
