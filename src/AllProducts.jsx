@@ -14,9 +14,9 @@ const AllProducts = () => {
   return (
     <div className='w-2/3'>
         <h1>AllProducts</h1>
-        <div>
+        <div className='mt-8'>
             {
-                product.map((product) => <ProductCart product={product} />)
+                product.map((product) => <ProductCart key={product.title} product={product} />)
             }
         </div>
     </div>
