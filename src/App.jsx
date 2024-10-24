@@ -9,6 +9,8 @@ const App = () => {
     status: "cart",
   });
 
+  const [showCart, setShowCart] = useState([]);
+
   const handleIsActive = (status) => {
     if (status === "cart") {
       setIsActive({
@@ -23,14 +25,27 @@ const App = () => {
     }
   };
 
+  const handleShowCart = (product) => {
+    const isExist = showCart.find((cart) => cart.title === product.title);
+
+    if (isExist) {
+      alert("already exists");
+    } else {
+      const newCartArray = [...showCart, product];
+      setShowCart(newCartArray);
+    }
+  };
+
+  //console.log(showCart);
+
   // console.log(isActive);
 
   return (
     <>
       <Nav />
       <div className="w-11/12 mt-8 mx-auto flex gap-6">
-        <AllProducts />
-        <CartContainer isActive={isActive} handleIsActive={handleIsActive} />
+        <AllProducts handleShowCart={handleShowCart} />
+        <CartContainer showCart={showCart} isActive={isActive} handleIsActive={handleIsActive} />
       </div>
     </>
   );

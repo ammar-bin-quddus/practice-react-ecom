@@ -2,7 +2,7 @@ import React from "react";
 import Cart from "./components/Cart";
 import About from "./components/About";
 
-const CartContainer = ({ handleIsActive, isActive }) => {
+const CartContainer = ({ handleIsActive, isActive, showCart }) => {
   return (
     <div className="w-1/3">
       <p>Cart Container</p>
@@ -28,7 +28,7 @@ const CartContainer = ({ handleIsActive, isActive }) => {
           <p>About</p>
         </div>
       </div>
-      {isActive.status === "cart" ? <Cart /> : <About />}
+      {isActive.status === "cart" ? <Cart showCart={showCart} /> : <About />}
     </div>
   );
 };
